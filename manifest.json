@@ -1,0 +1,19 @@
+{
+    "name" : "Unknown Chat",
+    "short_name" : "UBOT",
+    "start_url" : "home.html",
+    "background_color" : "#5DADE2",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "images/logo64.png",
+            "sizes" : "64x64",
+            "type" : "image/png"
+        },
+        {
+            "src" : "images/logo512.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+}
