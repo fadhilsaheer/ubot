@@ -1,0 +1,46 @@
+#to_hide{
+    display: none;
+}
+
+@media only screen and (max-width: 740px){
+    #chat{
+        display: block;
+    }
+}
+
+.my_btn{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+}
+.primary{
+    outline: none;
+}
+
+@media only screen and (max-width: 400px){
+    .my_btn{
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+#one{
+    display: none;
+}
+
+#audio{
+    display: none;
+    width: 100%;
+    outline: none;
+}
+
+#vid{
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+
+#to_show_tr{
+    display: none;
+}
