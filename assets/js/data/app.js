@@ -145,16 +145,6 @@ function speech() {
             catch_btn.style.display = "none"
         }
     }
-
-    sr.onresult = function (event) {
-        const message_before = event.resultIndex;
-        const message = event.results[message_before][0].transcript
-
-        var text = document.getElementById('name')
-        text.value = message;
-
-    }
-
     sr.start()
 }
 
