@@ -120,24 +120,24 @@ function speech() {
     try {
         const sr = new webkitSpeechRecognition()
         sr.onresult = function (event) {
-        const message_before = event.resultIndex;
-        const message = event.results[message_before][0].transcript
+           const message_before = event.resultIndex;
+           const message = event.results[message_before][0].transcript
 
-        var text = document.getElementById('name')
-        text.value = message;
+           var text = document.getElementById('name')
+           text.value = message;
 
         }
     } catch {
         try {
             const sr = new SpeechRecognition()
             sr.onresult = function (event) {
-        const message_before = event.resultIndex;
-        const message = event.results[message_before][0].transcript
+               const message_before = event.resultIndex;
+               const message = event.results[message_before][0].transcript
 
-        var text = document.getElementById('name')
-        text.value = message;
+               var text = document.getElementById('name')
+               text.value = message;
 
-    }
+            }
         }
         catch {
             alert("Speech recognition is not supported in your browser")
