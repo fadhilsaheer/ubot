@@ -127,6 +127,7 @@ function speech() {
            text.value = message;
 
         }
+        sr.start()
     } catch {
         try {
             const sr = new SpeechRecognition()
@@ -138,6 +139,7 @@ function speech() {
                text.value = message;
 
             }
+            sr.start()
         }
         catch {
             alert("Speech recognition is not supported in your browser")
@@ -145,7 +147,7 @@ function speech() {
             catch_btn.style.display = "none"
         }
     }
-    sr.start()
+    
 }
 
 //arrays/////////////////////////////////////////////////////////////////
