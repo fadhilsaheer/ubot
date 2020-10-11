@@ -342,7 +342,7 @@ function check_6__(req) {
     })
 }
 
-function translate() {
+function translate_() {
 
     var list = document.getElementById('lang')
     var language_code = list.options[list.selectedIndex].value;
