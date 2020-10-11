@@ -493,7 +493,7 @@ function greet_first() {
     if (name) {
         say("Hello " + name + ", my name is ubot, how can i help you")
     } else {
-        say("hello user my name is ubot, how can i help you")
+        say("hello my name is ubot, how can i help you")
     }
 }
 
