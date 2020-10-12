@@ -2,7 +2,7 @@ UNKNOWN BOT
 ============
 
 ## UBOT
-[UBOT](./images/logo512.png)
+(./images/logo512.png)
 
 Unknown Bot or UBOT is an artificial intelligent
 made using Javascript.It is not functioning using neural network instead
