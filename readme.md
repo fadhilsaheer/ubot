@@ -8,8 +8,7 @@ made using Javascript.It is not functioning using neural network instead
 it is hard coded some of basic functions are there
 
 ### DEVELOPER
-=========
-This program is devloped by [fadhil]("https://fadhilsaheer.github.io/fadhil/")<br />
+This program is devloped by [fadhil](https://fadhilsaheer.github.io/fadhil/)<br />
 IG : __fadhil_m_<br />
 E-mal : fadhilsaheer@gmail.com<br />
 
