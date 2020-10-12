@@ -9,6 +9,10 @@ it is hard coded some of basic functions are there
 
 DEVELOPER
 =========
-This program is devloped by fadhil
-#IG : __fadhil_m_
-#E-mal : fadhilsaheer@gmail.com
+This program is devloped by fadhil<br />
+IG : __fadhil_m_<br />
+E-mal : fadhilsaheer@gmail.com<br />
+
+# REQUIREMENTS
+This main backend of this app is vannila Javascript</br >
+i used css and sass for styling and basic html for layout
