@@ -2,7 +2,7 @@
     "name" : "Unknown Bot",
     "short_name" : "UBOT",
     "start_url" : ".",
-    "background_color" : "#fff",
+    "background_color" : "#5DADE2",
     "theme_color":"#5DADE2",
     "display" : "standalone",
     "icons" : [
