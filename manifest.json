@@ -4,7 +4,6 @@
     "start_url" : ".",
     "background_color" : "#5DADE2",
     "theme_color":"#5DADE2",
-    //"display" : "standalone",
     "display" : "fullscreen",
     "icons" : [
         {
