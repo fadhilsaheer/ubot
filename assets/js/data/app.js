@@ -142,7 +142,7 @@ function speech() {
             sr.start()
         }
         catch {
-            alert("Speech recognition is not supported in your browser")
+            swal("Voice Can't Speech Recognition", "Speech recognition is not supported in your browser!", "error");
             var catch_btn = document.getElementById('catch_btn')
             catch_btn.style.display = "none"
         }
