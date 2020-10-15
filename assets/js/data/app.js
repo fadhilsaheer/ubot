@@ -503,7 +503,7 @@ function data(msg) {
 
 
     }
-}
+//}
 
 function greet_first() {
     name = localStorage.getItem("name")
