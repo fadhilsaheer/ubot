@@ -478,17 +478,27 @@ function data(msg) {
         }
         else {
             bot = say('do you need the answer from web')
-            opt = confirm('Do you need answer from web')
+            swal({
+                 title: "Do you need the answer from web?",
+                 text: "Do you need the answer from web?",
+                 icon: "success",
+                 buttons: true,
+                 dangerMode: true,
+            })
+            .then((willDelete) => {
+                if (willDelete) {
+  	                google(msg)
+                    bot = "answer from web"
+                    append(msg, bot)
+    
+               } else {
+  	                bot = say("Iam sorry i don't know about it")
+                    append(msg, bot)
+    
+               }
+           })
 
-            if (opt) {
-                google(msg)
-                bot = "answer from web"
-                append(msg, bot)
-
-            } else {
-                bot = say("Iam sorry i don't know about it")
-                append(msg, bot)
-            }
+}
         }
 
 
