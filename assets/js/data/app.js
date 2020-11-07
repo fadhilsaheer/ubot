@@ -344,7 +344,7 @@ function check_6__(req) {
     })
 }
 
-function beta(req){
+function beta_(req){
     req.forEach((item) => {
         if (msg.includes(item)) {
             name = localStorage.getItem("name")
@@ -425,7 +425,7 @@ function data(msg) {
     if (msg.includes(check(greetings, greet))) {
 
     }
-    if(msg.includes(beta(beta_ask))){
+    if(msg.includes(beta_(beta_ask))){
     }
     if (msg.includes(check(fine, say_fine))) {
 
