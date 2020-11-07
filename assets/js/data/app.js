@@ -353,13 +353,13 @@ function beta(req){
                 say(bot)
                 append(msg, bot)
                 stop()
+            }else{
+                bot = "Its nasim's birthday, wish him"
+                say(bot)
+                append(msg, bot)
+                stop()
             }
-        } else{
-            bot = "i don't understand"
-            say(bot)
-            append(msg, bot)
-            stop()
-        }
+        } 
     })
 }
 
