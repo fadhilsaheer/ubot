@@ -205,7 +205,9 @@ const storage_ask = ['memory', 'what i said you to remember']
 const storage_remove = ['clear storage', 'clear memory', 'clear remember']
 
 //--arrays----------------------------------------------------------------------------
-
+//-beta
+const beta_ask = ["what is today's special", "today special", "today", "special]
+//--/beta
 
 //checking functions
 
@@ -342,6 +344,25 @@ function check_6__(req) {
     })
 }
 
+function beta(req){
+    req.forEach((item) => {
+        if (msg.includes(item)) {
+            name = localStorage.getItem("name")
+            if(name == "nasim"){
+                bot = "Its your birthday buddy, Happy Birthday from me and my boss fadhil"
+                say(bot)
+                append(msg, bot)
+                stop()
+            }
+        } else{
+            bot = "i don't understand"
+            say(bot)
+            append(msg, bot)
+            stop()
+        }
+    })
+}
+
 function translate_() {
 
     var list = document.getElementById('lang')
@@ -372,6 +393,7 @@ function google(search) {
 function data(msg) {
 
     //say command
+   
 
     if (msg.includes("say")) {
         msg_2 = msg.slice(4)
@@ -403,6 +425,8 @@ function data(msg) {
     if (msg.includes(check(greetings, greet))) {
 
     }
+    if(msg.includes(beta(beta_ask))){
+    }
     if (msg.includes(check(fine, say_fine))) {
 
     }
@@ -433,6 +457,8 @@ function data(msg) {
     if (msg.includes(check_6(camera_ask))) {
 
     }
+    
+    
 
     //calculation
     if (msg.includes("calc")) {
