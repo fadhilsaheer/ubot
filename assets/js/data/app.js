@@ -206,7 +206,7 @@ const storage_remove = ['clear storage', 'clear memory', 'clear remember']
 
 //--arrays----------------------------------------------------------------------------
 //-beta
-const beta_ask = ["what is today's special", "today special", "today", "special]
+const beta_ask = ["what is today's special", "today special", "today", "special"]
 //--/beta
 
 //checking functions
